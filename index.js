@@ -6,8 +6,8 @@ function logDriverNames(drivers){
 });
 }
 
-function logDriversByHometown(drivers){
+function logDriversByHometown(drivers, hometown){
    drivers.forEach(function(driver) {
-  console.log(driver.hometown);
+      if(driver.hometown === hometown) console.log(driver.name);
 });
 }
