@@ -13,5 +13,5 @@ function logDriversByHometown(drivers, hometown){
 }
 
 function driversByRevenue(drivers){
-  drivers.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+  drivers.sort((a, b) => (a.revenue) - (b.revenue));
 }
