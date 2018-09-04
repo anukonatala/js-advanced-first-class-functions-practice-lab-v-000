@@ -8,6 +8,6 @@ function logDriverNames(drivers){
 
 function logDriversByHometown(drivers){
    drivers.forEach(function(driver) {
-  console.log(driver.home);
+  console.log(driver.hometown);
 });
 }
