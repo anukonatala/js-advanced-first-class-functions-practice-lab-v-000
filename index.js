@@ -23,5 +23,4 @@ function driversByRevenue(drivers){
 function driversByName(drivers){
   const sortDrivers= drivers.slice();
   return sortDrivers.sort();
-  });
 }
