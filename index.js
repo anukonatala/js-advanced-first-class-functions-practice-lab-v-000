@@ -17,6 +17,6 @@ function driversByRevenue(drivers){
   const sortDrivers = drivers;
   sortDrivers.sort(function(a, b) {
     console.log("a.revenue  == " + a.revenue);
-    return parseFloat(a.revenue) - parseFloat(b.revenue);
+    return a.revenue - b.revenue;
   });
 }
